@@ -23,7 +23,7 @@ def load():
                 )
             """))
 
-            # 🔥 INSERT DATA (THIS WAS MISSING)
+            
             for _, row in df.iterrows():
                 conn.execute(text("""
                     INSERT INTO sales_data (order_id, product, price, qty, total_amount)
