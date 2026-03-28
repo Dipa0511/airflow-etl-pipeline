@@ -31,7 +31,7 @@ def load():
                     ON CONFLICT (order_id) DO NOTHING
                 """), row.to_dict())
 
-        logging.info("✅ Data loaded successfully")
+        logging.info(" Data loaded successfully")
 
     except Exception as e:
         logging.error(f"Load failed: {e}")
