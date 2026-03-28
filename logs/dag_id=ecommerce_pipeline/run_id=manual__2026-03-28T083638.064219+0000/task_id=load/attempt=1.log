@@ -1,6 +1,0 @@
-{"timestamp":"2026-03-28T08:36:47.318938Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
-{"timestamp":"2026-03-28T08:36:47.322447Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ecommerce_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
-{"timestamp":"2026-03-28T08:36:47.717309Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ecommerce_dag.py","lineno":2,"logger":"py.warnings"}
-{"timestamp":"2026-03-28T08:36:47.735887Z","level":"info","event":"Load started","logger":"root","filename":"load.py","lineno":7}
-{"timestamp":"2026-03-28T08:36:47.786839Z","level":"info","event":"✅ Data loaded successfully","logger":"root","filename":"load.py","lineno":32}
-{"timestamp":"2026-03-28T08:36:47.788162Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
